@@ -61,4 +61,12 @@ dependencies {
 	implementation 'com.github.MarioAriasC.funKTionale:funktionale-either:1.2'
 	implementation 'com.github.MarioAriasC.funKTionale:funktionale-option:1.2'
 	implementation 'com.google.code.gson:gson:2.8.2'
+	implementation 'at.favre.lib:slf4j-timber:1.0.0'
+
+}
+
+kotlin {
+	experimental {
+		coroutines "enable"
+	}
 }
